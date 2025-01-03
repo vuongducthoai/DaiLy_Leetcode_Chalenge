@@ -9,6 +9,8 @@ public class Count_Number_of_Maximum_Bitwise_Or_Subsets_2044 {
         for (int i = index; i < nums.length; i++) {
             backtrack(nums, i + 1, currentOR | nums[i], maxOR, count);
         }
+        
+//        for(int i = 0)
     }
 
     public int countMaxOrSubsets(int[] nums) {
@@ -25,4 +27,6 @@ public class Count_Number_of_Maximum_Bitwise_Or_Subsets_2044 {
 
         return count[0];
     }
+
+
 }
