@@ -1,11 +1,11 @@
 package _SourceCode;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Summary_Rangers_228 {
     public static List<String> summaryRanges(int[] nums) {
-        List<String> result = new ArrayList<>();
+        List<String> result = new LinkedList<>();
         if (nums.length == 0) {
             return result;
         }
