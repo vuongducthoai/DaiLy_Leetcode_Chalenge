@@ -5,7 +5,7 @@ public class DI_String_Match_942 {
         int n = s.length();
         int result[] = new int[n + 1];
         int low = 0, high = n;
-        for(int i = 0; i < n; i ++){.
+        for(int i = 0; i < n; i ++){
             if(s.charAt(i) == 'I'){
                 result[i] = low++;
             } else {
